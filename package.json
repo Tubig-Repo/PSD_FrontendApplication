@@ -2,9 +2,9 @@
   "name": "applicationpsd",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist --public-url ./"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Tubig-Repo/PSD_FrontendApplication/issues"
   },
-  "homepage": "https://github.com/Tubig-Repo/PSD_FrontendApplication#readme"
+  "homepage": "https://github.com/Tubig-Repo/PSD_FrontendApplication#readme",
+  "dependencies": {
+    "parcel": "^2.8.3"
+  }
 }

@@ -58,7 +58,7 @@ header {
   letter-spacing: -1px;
 }
 .logo-container img {
-  width: 250px;
+  width: 350px;
 }
 .logo-container {
   display: flex;
@@ -89,7 +89,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   background-color: #fff;
-  width: 60%;
+  width: 55%;
   border-radius: 4px;
 }
 
@@ -99,6 +99,7 @@ header {
   border-radius: 3px;
   text-align: center;
   color: #fff;
+  width: 30%;
 }
 
 .form-banner h3 {
@@ -117,9 +118,8 @@ header {
 
 /* Form Input and Button */
 .form-container {
-  width: 60%;
-  margin-left: auto;
-  margin-right: 35px;
+  width: 65%;
+  margin-left: 2%;
 }
 
 .form-container h4 {
@@ -134,10 +134,9 @@ header {
 }
 
 .form-container input {
-  padding: 0.5rem;
+  padding: 0.6rem;
   border: 1px solid #e5e5e5;
   border-radius: 5px;
-  flex-shrink: -1;
 }
 
 form {
@@ -145,11 +144,12 @@ form {
   gap: 1rem;
   width: 100%;
 }
+
 .submit-btn {
   border-radius: 5px;
   background-color: var(--brandColor);
   font-size: 16px;
-  padding: 0.3rem;
+  padding: 0.5rem;
   flex-grow: 2;
   text-align: center;
   border: 1px solid #616956;
