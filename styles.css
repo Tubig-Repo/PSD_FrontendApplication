@@ -1,0 +1,161 @@
+/* Reset */
+*::before,
+*::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --brandColor: #85bf3a;
+}
+/* Main Styling */
+::placeholder {
+  color: #bcc0c7;
+}
+header {
+  background-image: url("/Background.png");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Hero */
+
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 55%;
+  padding: 2rem;
+  transform: translate(-91%, -90%);
+  color: #3f3f3f;
+  font-style: italic;
+  letter-spacing: -1px;
+
+  display: flex;
+  justify-content: center;
+
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.979) 0%,
+    rgba(255, 255, 255, 0.068) 100%
+  );
+}
+.hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin-left: 5rem;
+}
+.hero p {
+  font-size: 28px;
+  letter-spacing: -1px;
+}
+.logo-container img {
+  width: 250px;
+}
+.logo-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+
+.hero-heading {
+  color: var(--brandColor);
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.hero-heading2 {
+  font-weight: 400;
+  font-size: 35px;
+}
+
+/* Form Banner */
+
+.schedule-container {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  width: 60%;
+  border-radius: 4px;
+}
+
+.form-banner {
+  background-color: var(--brandColor);
+  padding: 1.6rem;
+  border-radius: 3px;
+  text-align: center;
+  color: #fff;
+}
+
+.form-banner h3 {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  margin-left: -1px;
+  border-top: 50px solid transparent;
+  border-left: 20px solid var(--brandColor);
+  border-bottom: 50px solid transparent;
+}
+
+/* Form Input and Button */
+.form-container {
+  width: 60%;
+  margin-left: auto;
+  margin-right: 35px;
+}
+
+.form-container h4 {
+  color: #6d6e70;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.form-brandHeading {
+  color: var(--brandColor);
+}
+
+.form-container input {
+  padding: 0.5rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  flex-shrink: -1;
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+.submit-btn {
+  border-radius: 5px;
+  background-color: var(--brandColor);
+  font-size: 16px;
+  padding: 0.3rem;
+  flex-grow: 2;
+  text-align: center;
+  border: 1px solid #616956;
+}
+
+.submit-btn a {
+  text-decoration: none;
+  color: #fff;
+}
