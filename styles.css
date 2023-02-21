@@ -16,7 +16,7 @@
   color: #bcc0c7;
 }
 header {
-  background-image: url("/Background.png");
+  background-image: url("Background.png");
   width: 100vw;
   height: 100vh;
   background-position: center;
